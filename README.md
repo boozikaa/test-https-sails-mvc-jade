@@ -1,10 +1,13 @@
 # test-https-sails-mvc-jade
 
-a [Sails](http://sailsjs.org) application
+1) Created a new project with linker and jade as template
+    sails new <project-name> --template=jade --linker
 
-sails new <project-name> --template=jade --linker
+2) add dependencies in package.json
+    "jade": "latest"
 
-add dependencies in package.json
-"jade": "latest"
+3) install dependencies
+    npm install
 
-npm install
+
+P.S. html to jade: 

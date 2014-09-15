@@ -20,8 +20,8 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
-  models: {
-      connection: 'someMongodbServer'
-  },
+//  models: {
+//      connection: 'someMongodbServer'
+//  },
   port: 443
 };
