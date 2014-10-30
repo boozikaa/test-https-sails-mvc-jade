@@ -13,7 +13,10 @@ module.exports.bootstrap = function(cb) {
 
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+<<<<<<< HEAD
 
   console.log('?????');
+=======
+>>>>>>> eedc7f85c219ee3c0b400a74d12ec26a698e6a72
   cb();
 };

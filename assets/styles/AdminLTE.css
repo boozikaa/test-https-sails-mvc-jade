@@ -2082,9 +2082,14 @@ Component: timeline
 */
 .alert {
   padding-left: 30px;
+<<<<<<< HEAD
   /*margin-left: 15px;*/
   position: relative;
   margin-top: 25px;
+=======
+  margin-left: 15px;
+  position: relative;
+>>>>>>> eedc7f85c219ee3c0b400a74d12ec26a698e6a72
 }
 .alert > .fa,
 .alert > .glyphicon {
