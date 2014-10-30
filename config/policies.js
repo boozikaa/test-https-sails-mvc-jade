@@ -29,12 +29,8 @@ module.exports.policies = {
   // '*': true,
   //'/login': true,
   //'/logout': true,
-<<<<<<< HEAD
   //'/authentication/login': true,
   //'/login': true
-=======
-  //'*': 'sessionAuth'
->>>>>>> eedc7f85c219ee3c0b400a74d12ec26a698e6a72
 
   /***************************************************************************
   *                                                                          *
@@ -56,11 +52,8 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
-<<<<<<< HEAD
 
   UserController: {
       '*': 'sessionAuth'
   }
-=======
->>>>>>> eedc7f85c219ee3c0b400a74d12ec26a698e6a72
 };
